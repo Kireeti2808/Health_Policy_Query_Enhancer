@@ -8,14 +8,30 @@ st.set_page_config(page_title="Policy QA", layout="centered", initial_sidebar_st
 
 st.markdown("""
 <style>
-/* Gradient background */
+/* Set full background to dark gradient */
 body {
-    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-    color: black;
+    background: linear-gradient(to bottom right, #0f0c29, #302b63, #24243e);
+    color: white;
     font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 
-/* Title styling */
+/* Main section container */
+section.main {
+    background-color: transparent;
+}
+
+/* Centered main content box */
+section.main > div {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+/* Stylish gradient title */
 h1 {
     background: linear-gradient(135deg, #ff6ec4, #7873f5);
     -webkit-background-clip: text;
@@ -29,8 +45,8 @@ h1 {
 
 /* Input box styling */
 .stTextInput > div > div > input {
-    background-color: rgba(255, 255, 255, 0.07);
-    border: 1px solid #888;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid #aaa;
     border-radius: 10px;
     padding: 0.75em;
     color: white;
