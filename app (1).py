@@ -11,7 +11,7 @@ st.markdown("""
 /* Gradient background */
 body {
     background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-    color: white;
+    color: black;
     font-family: 'Segoe UI', sans-serif;
 }
 
