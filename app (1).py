@@ -7,10 +7,49 @@ import os
 st.set_page_config(page_title="Policy QA", layout="centered", initial_sidebar_state="collapsed")
 
 st.markdown("""
+st.markdown("""
+st.markdown("""
 <style>
-body {background-color: #0f1117; color: white;}
-section.main > div {background-color: #1e1e1e; padding: 2em; border-radius: 1em;}
+/* Gradient background */
+body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Title styling */
+h1 {
+    background: linear-gradient(135deg, #ff6ec4, #7873f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Input box styling */
+.stTextInput > div > div > input {
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 1px solid #888;
+    border-radius: 10px;
+    padding: 0.75em;
+    color: white;
+    font-size: 1.1em;
+}
+
+.stTextInput label {
+    font-weight: 600;
+    color: #ddd;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
 </style>
+""", unsafe_allow_html=True)
+
+""", unsafe_allow_html=True)
+
 """, unsafe_allow_html=True)
 
 st.title("🧐 Health Policy Query Enhancer")
