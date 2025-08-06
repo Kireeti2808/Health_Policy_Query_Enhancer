@@ -7,8 +7,6 @@ import os
 st.set_page_config(page_title="Policy QA", layout="centered", initial_sidebar_state="collapsed")
 
 st.markdown("""
-st.markdown("""
-st.markdown("""
 <style>
 /* Gradient background */
 body {
@@ -48,9 +46,6 @@ h1 {
 </style>
 """, unsafe_allow_html=True)
 
-""", unsafe_allow_html=True)
-
-""", unsafe_allow_html=True)
 
 st.title("🧐 Health Policy Query Enhancer")
 query = st.text_input("Enter your query:")
